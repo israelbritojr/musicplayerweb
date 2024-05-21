@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 62.5%;
+  background: #0f0d13;
+}
+.hide {
+  display: none;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteudo-musica img{
+  border-radius: 10px;
+  max-width: 300px;
+  max-height: 200px; 
+}
+
+.card-player {
+  background: linear-gradient(to bottom, #0f0d13,#db0000);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+
+}
+.desc-musica {
+  margin: 20px 0px 15px 0px;
+}
+.desc-musica span {
+  color: #9c9c9c;
+}
+.conteudo-musica p {
+  font-size: 2.4rem;
+}
+.conteudo-musica span {
+  font-size: 1.8rem;
+}
+
+.controles {
+  margin: 10px 0px 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.controles button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.container-progresso input {
+  width: 100%;
+}
+.tempo-musica {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  opacity: 0.8;
+}

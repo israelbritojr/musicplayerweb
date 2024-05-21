@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player do Reino</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="card-player">
+      <div class="conteudo-musica">
+        <img id="fundo"src="./assets/fundo-da-musica-dono-da-porsche.jpg" alt="">
+        <div class="desc-musica">
+          <p>Dono da Porsche</p>
+          <span>Mc Reino</span>
+        </div>
+      </div>
+      <div class="controles">
+        <button id="prevButton"><img src="./assets/voltar.png" alt="voltar"></button>
+        <button id="play"><img src="./assets/play.png" alt="play"></button>
+        <button id="pause" class="hide"><svg xmlns="http://www.w3.org/2000/svg" style="width: 17px; " viewBox="0 0 320 512">
+            <path d="M48 64C21.5 64 0 85.5 0 112V400c0 26.5 21.5 48 48 48H80c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H48zm192 0c-26.5 0-48 21.5-48 48V400c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H240z" fill="#E1E1E6"></path>
+          </svg></button>
+        <button id="nextButton"><img src="./assets/avancar.png" alt="avancar"></button>
+      </div>
+      <div class="container-progresso">
+        <input id="progressBar" type="range" value="0" min="0" max="100" step="1">
+      </div>
+      <div class="tempo-musica">
+        <span id="tempoAtual">00:00</span>
+        <span id="tempoTotal">06:00</span>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
